@@ -1,0 +1,77 @@
+body
+{
+    background-image:url(bodyimage.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1rem;
+    margin: 0;
+}
+input[type="text"],input[type="number"],input[type="tel"],input[type="date"],input[type="month"],input[type="time"],select
+{
+    width: 200px;
+    height: 30px;  
+    border-radius: 5px; 
+    background-color: white;
+    
+
+}
+textarea
+{
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: -1px -1px black, 1px 1px grey;
+}
+input[type="text"]:focus, input[type="number"]:focus,input[type="tel"]:focus,input[type="date"]:focus,
+input[type="month"]:focus,input[type="time"]:focus,textarea:focus,select:focus
+{
+  background-color: rgba(0, 204, 255, 0.26);
+  box-shadow:2px 2px 5px white;
+  font-weight: bold;
+
+}
+h1
+{
+    color: rgb(210, 245, 11);
+    text-shadow: 2px 2px 1px rgb(131, 21, 221) ;
+    margin: none; 
+    padding: none;
+    text-align: center;
+    font-family: 'Londrina Outline', sans-serif;
+    font-size: 40px;
+}
+fieldset
+{
+    margin: 20px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border:2px solid rgb(223, 223, 163);
+    background-color: rgba(7, 1, 1, 0.15);
+}
+legend,button
+{  
+    font-family: 'Architects Daughter', sans-serif;
+    font-size: 25px;
+    color: white;
+    background-image: url(legendimage.jpg);
+    border: 2px solid rgb(245, 215, 49);
+    padding: 5px 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+table
+{
+    width: 100%;
+}
+td ,.declaration
+{
+    font-size: 20px;
+    font-family: 'Marcellus SC', sans-serif;
+    padding: 10px 5px  ;
+
+}
+td a
+{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
